@@ -1,0 +1,12 @@
+# You must change these.
+MOAB_DIR:PATH=/home/chris/Projects/meshkit/support/moab-cmake-install/lib
+CGM_CFG:PATH=/home/chris/Projects/meshkit/support/CGM-install/lib/cgm.make
+IGEOM_CFG:PATH=/home/chris/Projects/meshkit/support/CGM-install/lib/iGeom-Defs.inc
+IREL_CFG:PATH=/home/chris/Projects/meshkit/support/lasso-install/lib/iRel-Defs.inc
+ENABLE_utils:BOOL=ON
+ENABLE_algs:BOOL=ON
+ENABLE_rgg:PATH=ON
+ENABLE_src:BOOL=ON
+ENABLE_test:BOOL=ON
+BUILD_SHARED_LIBS:BOOL=ON
+CMAKE_BUILD_TYPE:STRING=Debug
